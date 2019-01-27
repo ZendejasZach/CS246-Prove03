@@ -8,15 +8,15 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         // Get user input
-//        System.out.println("Please enter the city: ");
-//        Scanner reader = new Scanner(System.in);
-//        String input = reader.nextLine();
+        System.out.println("Please enter the city: ");
+        Scanner reader = new Scanner(System.in);
+        String input = reader.nextLine();
 
         // Close the connection
-//        reader.close();
+        reader.close();
 
         // For testing only TODO: Remove this before production
-        String input = "Rexburg";
+//        String input = "Rexburg";
 
         // Create the weather object
         WeatherRequest w = new WeatherRequest(input);
